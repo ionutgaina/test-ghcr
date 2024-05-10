@@ -18,5 +18,4 @@ jobs:
     - name: build image and push to ghcr.io
       run: |
         docker build . --tag ghcr.io/ionutgaina/test-ghcr:latest
-        docker run ghcr.io/ionutgaina/test-ghcr:latest
         docker push ghcr.io/ionutgaina/test-ghcr:latest
