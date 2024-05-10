@@ -10,6 +10,7 @@ COPY . /app
 
 # after that go ahead and run some commands
 
+LABEL org.opencontainers.image.source="https://github.com/ionutgaina/test-ghcr"
 
 RUN npm install
 
